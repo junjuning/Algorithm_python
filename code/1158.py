@@ -7,7 +7,6 @@ que=deque(range(1, n+1))
 list=[]
 while len(que)>=1 :
     que.rotate(-(k-1))
-    print(que)
     list.append(que.popleft())
  
     

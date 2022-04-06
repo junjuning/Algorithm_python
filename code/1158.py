@@ -1,3 +1,6 @@
+# deque 사용
+# 양방향 큐 O(1)
+
 import sys
 from collections import deque
 

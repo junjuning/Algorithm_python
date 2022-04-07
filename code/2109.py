@@ -12,7 +12,7 @@ for i in range(n):
     p, d = map(int, sys.stdin.readline().split())
     arr.append([p, d])
     
-arr.sort(key = lambda x :x[1])
+arr.sorted(key = lambda x :x[1])
 
 heap = []
 for i in arr:

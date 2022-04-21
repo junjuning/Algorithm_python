@@ -13,5 +13,5 @@ while len(que)>=1 :
     que.rotate(-(k-1))
     list.append(que.popleft())
  
-    
+     
 print('<'+", ".join(map(str, list))+'>')

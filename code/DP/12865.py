@@ -1,10 +1,10 @@
 ## 골드5
-# 동적프로그래밍 베낭 문제
+# 동적프로그래밍 배낭 문제
 # 베낭문제를 설명하는 기본적인 문제
 
 import sys
 
-n, W = map(int, input().split())
+n, W = map(int, sys.stdin.readline().split())
 list = [[0,0]]
 dp = [[0 for _ in range(W + 1)] for _ in range(n + 1)]
 

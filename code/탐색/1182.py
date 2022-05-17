@@ -1,6 +1,6 @@
 ## 실버2
 # combinations()
-# 
+# 브루트포스
 
 from itertools import combinations
 import sys

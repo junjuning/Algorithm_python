@@ -13,7 +13,7 @@ fin = 0
 while(start <= end) :
     mid = (start+end)//2
     pre = 0 # 직전 심판 위치
-    num = 1 #심판 수
+    num = 1 # 심판 수
     str = "1"
     for i in range(1, k):
         if(place[i]-place[pre] >= mid):

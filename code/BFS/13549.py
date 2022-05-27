@@ -1,3 +1,7 @@
+## 골드 5
+# bfs
+# 우선순위가 높은 것 까지 고려
+
 from collections import deque
 
 n, k = map(int, input().split())

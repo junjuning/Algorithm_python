@@ -1,3 +1,7 @@
+## 골드 5
+# BFS인데 DFS로도 풀 수 있대
+# 왜 어렵냐...
+
 from collections import deque
 import sys
 

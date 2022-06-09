@@ -1,5 +1,7 @@
+## 실버1
+# 기본 bfs, bfs를 이해하기 가장 좋은 예제
+
 from collections import deque
-import sys
 
 n, m = map(int, input().split())
 dx = [-1, 0, 1, 0]

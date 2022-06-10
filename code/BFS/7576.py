@@ -1,3 +1,6 @@
+## 골드 1
+# bfs로 푸는데 미리 익힌 토마토는 append 해야 함,,
+
 from collections import deque
 import sys
 

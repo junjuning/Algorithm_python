@@ -1,3 +1,6 @@
+## 실버 1
+# 단순 bfs에서 사알짝 응용
+
 from collections import deque
 import sys
 

@@ -1,6 +1,6 @@
 # 스택/큐
 # 데큐 최고
-# 리스트[-1]은 마지막을 가르킴
+# 리스트[-1]은 마지막을 가리킴
 
 from collections import deque
 

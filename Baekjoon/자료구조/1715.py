@@ -1,4 +1,4 @@
-## 골드 1
+## 골드 4
 # heapq쓰면 너무 간단한 문제
 
 import heapq

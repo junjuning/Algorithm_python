@@ -1,3 +1,5 @@
+## 실버 5
+
 import sys
 n = int(input())
 

@@ -9,7 +9,7 @@ n = int(input())
 q = []
 
 for i in range(n):
-    now = int(sys.stdin.readline().rstrip())
+    now = int(sys.stdin.readline())
     if(now == 0):
         if(not q):
             print(0)

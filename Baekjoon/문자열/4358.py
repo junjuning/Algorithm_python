@@ -1,3 +1,6 @@
+## 실버 2
+# 딕셔너리
+
 import sys
 dic = {}
 total = 0

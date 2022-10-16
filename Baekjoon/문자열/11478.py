@@ -1,3 +1,5 @@
+## 실버3
+
 import sys
 
 s = list(sys.stdin.readline().strip())

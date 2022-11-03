@@ -1,3 +1,6 @@
+## 실버 3
+# 백트래킹을 잘 설명하는 문제
+
 import sys
 
 n, m = map(int, sys.stdin.readline().split())

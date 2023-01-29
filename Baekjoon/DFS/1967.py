@@ -3,7 +3,7 @@ import sys
 n = int(input())
 tree = []
 global cnt
-cnt=0
+cnt = 0
 
 def dfs(x):
     for i in range(n-1) :

@@ -17,3 +17,23 @@ def solution(s):
     else:
         return False
 
+
+# def solution(s):
+#     q = []
+    
+#     if s[0] == ')':
+#         return False
+#     q.append(s[0])
+    
+#     for i in range(1, len(s)):
+#         if s[i] == '(':
+#             q.append(s[i])
+#         else:
+#             if q:
+#                 q.pop()
+#             else:
+#                 return False
+#     if q:
+#         return False
+#     else:
+#         return True

@@ -17,3 +17,27 @@ def solution(priorities, location):
             location -= 1
         else:
             location = len(priorities) - 1
+            
+# def solution(priorities, location):
+#     answer = 1
+#     cnt = 0
+    
+#     while priorities:
+#         num = len(priorities)
+#         maxm = max(priorities)
+#         now = priorities.pop(0)
+#         cnt = cnt % num
+        
+#         if now < maxm:
+#             priorities.append(now)
+#         else:
+#             if cnt % num == location:
+#                 return answer
+        
+#             if cnt % num < location:
+#                 location = (location - 1) % (num - 1)
+
+#             cnt -= 1
+#             answer += 1
+#         cnt += 1
+#     return answer

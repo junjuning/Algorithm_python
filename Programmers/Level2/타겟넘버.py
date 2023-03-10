@@ -6,15 +6,16 @@ from collections import deque
 
 def solution(numbers, target):
     answer = 0
-    length = len(numbers)
+    
     q = deque()
-    q.append([0, 0])
+    q.append([0, -1])
+    length = len(numbers) - 1
     
     while q:
-        x, l = q.popleft()
-        if(l<=length):
-            if(x == target and l == length):
+        sum, idx = q.popleft()
+        if idx <= length:
+            if idx == length and sum == target:
                 answer += 1
-            q.append([x+numbers[l-1], l+1])
-            q.append([x-numbers[l-1], l+1])
+            q.append([sum + numbers[idx], idx + 1])
+            q.append([sum - numbers[idx], idx + 1])
     return answer

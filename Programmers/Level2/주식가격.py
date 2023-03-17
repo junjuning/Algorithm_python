@@ -1,3 +1,5 @@
+## min같은걸 남발하지말자,,
+
 def solution(prices):
     answer = [0, 1]
     num = 1

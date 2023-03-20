@@ -1,7 +1,6 @@
 import re
 
 def solution(files):
-    answer = []
     arr = []
     
     for file in files:

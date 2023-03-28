@@ -8,3 +8,13 @@ def solution(numbers):
     return str(int(''.join(numbers)))
 
 solution([6, 10, 2])
+
+def solution(numbers):
+    answer = []
+    numbers = list(map(str, numbers))
+    numbers.sort(key = lambda x: (x*4)[0:4], reverse = True)
+    
+    if numbers[0] == '0':
+        return '0'
+    else:
+        return ''.join(numbers)

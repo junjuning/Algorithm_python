@@ -1,4 +1,5 @@
-## 플로이셜 워셜 알고리즘
+## 실버1
+# 플로이셜 워셜 알고리즘
 # 모든 정점에서의 다른 모든 지점까지의 최단거리 구하는 경우
 
 import sys
@@ -15,7 +16,6 @@ for k in range(n):
             if arr[i][j] == 1 or (arr[i][k] == 1 and arr[k][j] == 1):
                 arr[i][j] = 1
                 
-
 for i in arr:
     for j in i:
         print(j, end = ' ')

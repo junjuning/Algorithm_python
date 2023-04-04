@@ -16,9 +16,9 @@ for i in range(2, n + 1):
         arr[i] = arr[i//2] + 1
         path[i] = path[i//2] + [i]
 
-num = n
+
 print(arr[n])
-for i in path[i][::-1]:
+for i in path[n][::-1]:
     print(i, end = ' ')
 # print(n, end = ' ')
 

@@ -6,9 +6,6 @@ import sys
 n, t = map(int, sys.stdin.readline().split())
 score = [[0,0]]
 dp = [[0 for _ in range(t+1)] for _ in range(n+1)]
-for _ in range(n): 
-    score.append(list(map(int, sys.stdin.readline().split())))
-
 
 for i in range(1, n+1):
     for j in range(1, t+1):

@@ -1,3 +1,4 @@
+# 그리디
 def solution(routes):
     answer = -30000
     cnt = 0

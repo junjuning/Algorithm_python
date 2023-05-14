@@ -1,3 +1,5 @@
+# bfs
+
 from collections import deque
 def solution(begin, target, words):
     q = deque()

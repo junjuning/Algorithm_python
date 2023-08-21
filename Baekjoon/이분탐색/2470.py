@@ -24,5 +24,6 @@ while left < right :
         left += 1
     else:
         right -= 1
+        break
 
 print(arr[resultLeft], arr[resultRight])

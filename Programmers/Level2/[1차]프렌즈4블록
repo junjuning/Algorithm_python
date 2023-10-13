@@ -1,0 +1,41 @@
+from collections import deque
+def solution(m, n, board):
+    answer = 0
+    dx = [1, 0, 1]
+    dy = [0, 1, 1]
+    
+    arr = zip(*board)
+    
+    # 각 행을 뒤집어서 결과 행렬 생성
+    arr = [list(reversed(row)) for row in arr]
+
+    while True:
+        remove = set()
+        for y in range(len(arr)):
+            for x in range(len(arr[y])):
+                key = arr[y][x]
+                for k in range(3):
+                    nx = x + dx[k]
+                    ny = y + dy[k]
+                    if 0 <= ny < len(arr):
+                        if 0 <= nx < len(arr[ny]):
+                            if arr[ny][nx] != key:
+                                break
+                        else:
+                            break
+                    else:
+                        break
+                    if k == 2:
+                        remove.add(tuple([x, y]))
+                        remove.add(tuple([x + 1, y]))
+                        remove.add(tuple([x, y + 1]))
+                        remove.add(tuple([x + 1, y + 1]))
+        if not remove:
+            break
+        remove = list(remove)
+        remove.sort(key = lambda x: x[0], reverse = True)
+        for x, y in remove:
+            arr[y].pop(x)
+            answer += 1
+
+    return answer

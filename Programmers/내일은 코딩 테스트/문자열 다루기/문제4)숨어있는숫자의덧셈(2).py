@@ -1,4 +1,5 @@
 # 정규표현식, findAll, \d+ -> 숫자
+# isnumeric() 써도 될듯
 
 import re
 def solution(my_string):

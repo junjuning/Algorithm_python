@@ -1,3 +1,5 @@
+## 이분탐색
+
 def solution(stones, k):
     answer = 0
     left = 1

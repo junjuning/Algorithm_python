@@ -1,3 +1,5 @@
+# math.ceil 쓰면 반올림 되는거 까먹지마셈
+
 def solution(progresses, speeds):
     answer = []
     deploy = -1

@@ -1,11 +1,11 @@
 import sys
 n = int(input())
 
-arr = dict(map(int, sys.stdin.readline().split()))
-# arr = sorted(arr)
-# sum = 0
+arr = list(map(int, sys.stdin.readline().split()))
+arr.sort(reverse = True)
 
-
-
-
-print(arr) 
+answer = 0
+for i in range(n):
+    answer += arr[i] * (i + 1)
+    
+print(answer)
